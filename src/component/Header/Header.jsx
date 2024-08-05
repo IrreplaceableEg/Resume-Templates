@@ -47,7 +47,7 @@ function handleThreeDot(){
 
       <div className='threeDotContainer'>
 
-      <p className={Style.cross} onClick={handleThreeDot}>  {threedot?  <BsThreeDotsVertical/>:<BsThreeDotsVertical/>}</p>
+      <p className={Style.cross} onClick={handleThreeDot}>  {threedot? <BsThreeDotsVertical/>:<BsThreeDotsVertical/>}</p>
       </div>
 
        

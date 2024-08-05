@@ -132,7 +132,7 @@ else{
         disabled={(dbemail === enteredValue.email && dbpassword === enteredValue.password)? false:true}
         
         
-        className='btn disabled:opacity-70 w-[300px] h-[30px] text-center mt-2 ml-16 bg-blue-600 text-[#264653]  border border-slate-300 rounded-md ' type='submit'>Login</button>
+        className='btn disabled:opacity-7 w-[300px] h-[30px] text-center mt-2 ml-16 bg-blue-600 text-[#264653]  border border-slate-300 rounded-md ' type='submit'>Login</button>
         </div>
        
 

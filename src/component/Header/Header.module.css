@@ -39,7 +39,7 @@
     position: absolute;
     left:98vw;
     top:1.5vh;
-     
+     cursor: pointer;
     align-items: center;
 
 }
