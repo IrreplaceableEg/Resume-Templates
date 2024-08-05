@@ -20,8 +20,11 @@
  }
  .backBtn{
     margin-left:10px;
-    padding:5px
+    padding:5px;
+    
  }
+ 
+ 
  .img{
     width: 5vw;
     height: 5vh;

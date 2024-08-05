@@ -9,6 +9,7 @@ function Header() {
   const location=useLocation();
   console.log(location.pathname);
   console.log(location);
+  const [disabled,setDisabled]=useState(false);
 
 const [threedot,setThreeDot] =useState(false); 
   const navigate=useNavigate();
@@ -33,13 +34,14 @@ function handleThreeDot(){
 }
 
 function handleNavigate(){
-  // navigate(-1);
-  if(location.pathname === "/login"){
-    navigate(0);
+  if(location.pathname ==="/details"){
+    setDisabled(true);
   }
   else{
     navigate(-1);
   }
+ 
+  
 
 }
  
@@ -50,7 +52,7 @@ function handleNavigate(){
  
       <div className={Style.navbarLeft}>
  
-      <button className={Style.backBtn} onClick={handleNavigate}>❮</button>      
+      <button className={Style.backBtn} disabled={disabled} onClick={handleNavigate}>❮</button>      
       <img  className={Style.img} src='https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/templates/reactt2_1200x303.png?sfvrsn=3ddeaf3b_2'></img>
        <h1 className={Style.h1}>Resume</h1>
 
