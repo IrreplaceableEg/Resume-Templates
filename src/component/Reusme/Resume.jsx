@@ -10,7 +10,7 @@ function Resume() {
 
    let clnam=location.state.clname;
   // console.log(location);
-  console.log(location.state.clname);
+
 
 
 
