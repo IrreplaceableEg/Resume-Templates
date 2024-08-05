@@ -33,7 +33,9 @@
     color: rgb(25, 118, 184);
  }
   
-
+.threeDotContainer{
+    position: relative;
+}
 
  .cross{
     position: absolute;
@@ -70,17 +72,30 @@
     display: none;
 }
 
-/* 
-.threedot:hover{
-    position:  relative;
+
+.cross:hover{
+    position:  absolute;
      
-    width: 25px;
-    height: 25px;
-    background-color: rgb(174, 230, 237);
+    
+    background-color: rgb(201, 238, 243);
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgb(174, 230, 237)
+    box-shadow: 0px 0px 0px 5px rgb(201, 238, 243)
      
-} */
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @media (max-width:768px) {
     .navbarR{
         position: relative;

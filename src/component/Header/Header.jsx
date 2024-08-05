@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import {useNavigate,useLocation} from 'react-router-dom'
 import Style from "../Header/Header.module.css"
 import { BsThreeDotsVertical } from "react-icons/bs";
-import { MdOutlineCancel } from "react-icons/md";
+// import { MdOutlineCancel } from "react-icons/md";
 
 function Header() {
 
   const location=useLocation();
+  console.log(location.pathname);
   console.log(location);
 
 const [threedot,setThreeDot] =useState(false); 
@@ -30,13 +31,26 @@ function handleThreeDot(){
 
 
 }
-  
+
+function handleNavigate(){
+  // navigate(-1);
+  if(location.pathname === "/login"){
+    navigate(0);
+  }
+  else{
+    navigate(-1);
+  }
+
+}
+ 
+
+
   return (
     <nav className={Style.navbar}>
  
       <div className={Style.navbarLeft}>
  
-      <button className={Style.backBtn} onClick={()=>navigate(-1)}>❮</button>      
+      <button className={Style.backBtn} onClick={handleNavigate}>❮</button>      
       <img  className={Style.img} src='https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/templates/reactt2_1200x303.png?sfvrsn=3ddeaf3b_2'></img>
        <h1 className={Style.h1}>Resume</h1>
 

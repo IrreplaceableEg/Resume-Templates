@@ -5,9 +5,9 @@ import Header from '../Header/Header';
  
 
 function Details() {
-// const location = useLocation();
+const location = useLocation();
 // console.log(location.state.prevloc);
-// console.log(location.pathname);
+console.log(location.pathname);
   
   const navigate=useNavigate();
    
