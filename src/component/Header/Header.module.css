@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .navbar{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    background-color: rgb(135, 180, 235);
+    justify-content: space-between;
+     
+ }
+ .navbarLeft{
+    display: flex;
+    align-items: center;
+    justify-items:center ;
+    gap: 30px;
+
+ }
+ .backBtn{
+    margin-left:10px;
+    padding:5px
+ }
+ .img{
+    width: 5vw;
+    height: 5vh;
+    object-fit: cover;
+ }
+ h1{
+    font-size: 1.5vw;
+    font-family: serif;
+    color: rgb(25, 118, 184);
+ }
+  
+
+
+ .cross{
+    position: absolute;
+    left:98vw;
+    top:1.5vh;
+     
+    align-items: center;
+
+}
+ 
+.menu{
+    position: relative;
+    padding:20px;
+    width: 5vw;
+    height: 12vh;
+    margin: 10px;
+    top: 22px;
+    right: 7px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+  
+    border-radius: 12px;
+    /* border: 2px solid blue; */
+
+    
+}
+
+ 
+.inactive{
+    display: none;
+}
+
+/* 
+.threedot:hover{
+    position:  relative;
+     
+    width: 25px;
+    height: 25px;
+    background-color: rgb(174, 230, 237);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(174, 230, 237)
+     
+} */
+/* @media (max-width:768px) {
+    .navbarR{
+        position: relative;
+        padding:20px;
+        width: 9vw;
+        height: 12vh;
+        margin: 10px;
+        top: 58px;
+        right: 24px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
+     
+    }
+    
+}
+   */
+/*   
+@media (max-width:1024px) {
+    .navbarR{
+        position: relative;
+        padding:20px;
+        width: 9vw;
+        height: 12vh;
+        margin: 10px;
+        top: 58px;
+        right: 24px;
+        background-color:  white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
+     
+    }
+    
+}
+
+@media (max-width:425px) {
+    .navbarR{
+        position: relative;
+        padding:20px;
+        width: 15vw;
+        height: 12vh;
+        margin: 10px;
+        top: 58px;
+        right: 24px;
+        background-color:  white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
+     
+    }
+    
+}
+  
+  
+  
+   */
